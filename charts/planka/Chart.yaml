@@ -23,9 +23,9 @@ version: 0.1.2
 # It is recommended to use it with quotes.
 appVersion: "1.12.0"
 
-dependencies:
-- alias: postgresql
-  condition: postgresql.enabled
-  name: postgresql
-  repository: &bitnami-repo https://charts.bitnami.com/bitnami
-  version: 12.5.1
+# dependencies:
+# - alias: postgresql
+#   condition: postgresql.enabled
+#   name: postgresql
+#   repository: &bitnami-repo https://charts.bitnami.com/bitnami
+#   version: 12.5.1
