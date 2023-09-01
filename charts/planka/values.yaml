@@ -90,7 +90,7 @@ tolerations: []
 affinity: {}
 
 postgresql:
-  enabled: true
+  enabled: false
   auth:
     database: planka
     username: planka
@@ -109,3 +109,5 @@ persistence:
   
   accessMode: ReadWriteOnce
   size: 10Gi
+
+databaseUrl: "postgres://mainframe:WXsgfttXu6nmRYNbkvvQV7gYhbZnu2Je@pgsql01.l33t.sh:5432/planka"
