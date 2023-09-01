@@ -110,4 +110,4 @@ persistence:
   accessMode: ReadWriteOnce
   size: 10Gi
 
-databaseUrl: "postgres://mainframe:WXsgfttXu6nmRYNbkvvQV7gYhbZnu2Je@pgsql01.l33t.sh:5432/planka"
+databaseUrl: "postgres://USERNAME:PASSWORD@URL:5432/DATABASE_NAME"
