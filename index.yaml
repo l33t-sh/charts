@@ -34,6 +34,16 @@ entries:
   planka:
   - apiVersion: v2
     appVersion: 1.12.0
+    created: "2023-09-01T10:14:11.263416961Z"
+    description: A Helm chart to deploy Planka and it's dependencies.
+    digest: 7350bcb2553bfeb2745ab5fd289692e2097159879705591ec2371d7d2fb30789
+    name: planka
+    type: application
+    urls:
+    - https://github.com/l33t-sh/charts/releases/download/planka-0.1.4/planka-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.12.0
     created: "2023-09-01T10:08:31.851959525Z"
     description: A Helm chart to deploy Planka and it's dependencies.
     digest: 4a443605bfbd0669e138090de8ef998a2da820e579fb8c38105e545efe729eb8
@@ -52,4 +62,4 @@ entries:
     urls:
     - https://github.com/l33t-sh/charts/releases/download/planka-0.1.2/planka-0.1.2.tgz
     version: 0.1.2
-generated: "2023-09-01T10:08:31.851973626Z"
+generated: "2023-09-01T10:14:11.263457762Z"
